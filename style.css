@@ -5,8 +5,12 @@ body {
 
 .toprectangle {
     width: 100em;
-    padding: 60px;
     background-color: #ffffff;   
+}
+
+.crunchyrolllogo {
+    width: 150px;
+    margin-left: 140px;
 }
 
 .bottomrectangle {
@@ -14,3 +18,4 @@ body {
     padding: 60px;
     background-color: #ffffff;
 }
+
