@@ -4,8 +4,12 @@ body {
 }
 
 .toprectangle {
+    position: fixed;
+    left: 0;
+    top: 0;
     width: 100em;
-    background-color: #ffffff;   
+    background-color: #ffffff;
+    box-shadow: 5px 5px 5px #D5D5D5;
 }
 
 .crunchyrolllogo {
@@ -13,9 +17,24 @@ body {
     margin-left: 140px;
 }
 
-.bottomrectangle {
-    width: 100em;
-    padding: 60px;
+.createaccountsquare {
+    position: relative;
+    left: 150px;
+    top: 100px;
+    width: 1200px;
+    height: 630px;
+    border: solid #C1C0C0 1px;
     background-color: #ffffff;
+}
+
+.bottomrectangle {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px 10px;
+    width: 100em;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
 }
 
