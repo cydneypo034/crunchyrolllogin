@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+.toprectangle {
+    width: 100em;
+    padding: 60px;
+    background-color: #ffffff;   
+}
+
+.bottomrectangle {
+    width: 100em;
+    padding: 60px;
+    background-color: #ffffff;
+}
