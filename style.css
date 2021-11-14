@@ -45,6 +45,10 @@ input[type=radio]{
     transform: scale(2);
 }
 
+.custom-control-input:hover{
+    border: 1px solid #F78C25;
+}
+
 input[type=text]:hover{
     border: 1px solid #F78C25;
   }
