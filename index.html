@@ -15,12 +15,45 @@
     
 
     <div class="createaccountsquare">
-            <h1>Hello World!</h1>
+            <h1>Sign Up for a Free Account</h1>
+            <p>Please join Crunchyroll! It's only one click away!</p>
 
+            <input type="text" name="email" placeholder="Email Address" >
+
+            <input type="text" name="name" placeholder="User Name" >
+            <input type="text" name="password" placeholder="Password" >
+
+            <select id="months-dropdown">
+                <option value="Month">Month</option>
+            </select>
+
+            <select id="days-dropdown">
+                <option value="Day">Day</option>
+            </select>
+
+            <select id='year-dropdown'>
+                <option value="Year">Year</option>
+            </select>
     </div>
 
     <footer class="bottomrectangle">
        © 2006-2021 Ellation, LLC.
     </footer>
+
+    <script>
+
+        let yearDropdown = document.getElementById('year-dropdown');
+        let currentYear = new Date().getFullYear();
+        let firstYear = 1899;
+        while(currentYear >= firstYear){
+            let yearDate = document.createElement('option');
+            yearDate.text = currentYear;
+            yearDate.value = currentYear;
+
+            yearDropdown.add(yearDate);
+            currentYear -= 1;
+        }
+
+        </script>
 </body>
 </html>
