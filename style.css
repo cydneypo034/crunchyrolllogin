@@ -33,7 +33,7 @@ body {
 
 .formgroup1 {
     float: left;
-    padding: 2px;
+    padding: 1px;
 }
 
 .form-control {
@@ -45,8 +45,9 @@ input[type=radio]{
     transform: scale(2);
 }
 
-input[type=text]:focus {
-    border: 3px solid #555;
+input[type=text]:hover{
+    border: 1px solid #F78C25;
+
   }
 
 select {
@@ -60,6 +61,12 @@ select {
     background-color: #F78C25;
 }
 
+#newButton2 {
+    height: 3em;
+    width: 16em;
+    background-color: #EB7F25;
+}
+
 .vl {
     border-left: 2px solid #C1C0C0;
     height: 660px;
@@ -67,11 +74,20 @@ select {
     left: 65%;
     top: 0;
 }
+.createacc-extra-text {
+    font-size: 12px;
+    text-align: left;
+}
 
 .login-form {
     float: right;
     position: relative;
     top: -200px;
+}
+
+#forgotpassword {
+    float: right;
+    color: #EB7F25
 }
 
 .login-extra-text {

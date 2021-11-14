@@ -59,61 +59,71 @@
 
                                 <div class="col">
                                     <button type="button" id="newButton" class="btn btn-primary btn-lg">Create Account</button>
+                                    
                                 </div>
 
+                                <div>&nbsp;</div>
+
+                                <p class="createacc-extra-text">By creating an account you're agreeing 
+                                    to our Terms & Privacy Policy, and you confirm that you are at least 16 years old.</p>
 
                             </div>
                             </div> 
+                            
                         </div>
-                    </form>
                     <form>
-                        <div class="formgroup1">     
-                            <div class="form-row">
-                                
-                                <div class="col">
-                                    <label for="username" class="form-label">User Name</label><br/>
-                                    <input type="text" class="form-control">
+                                <div class="formgroup1">     
+                                    <div class="form-row">
+                                        
+                                        <div class="col">
+                                            <label for="username" class="form-label">User Name</label><br/>
+                                            <input type="text" class="form-control">
+                                        </div>
+
+                                        <div>&nbsp;</div>
+                                        
+                                        <div class="col">
+                                        <label type="birthday">Birthday</label><br/>
+                                        <select id="months-dropdown">
+                                            <option value="Month">Month</option>
+                                            <option value="Jan">Jan</option>
+                                            <option value="Feb">Feb</option>
+                                            <option value="Mar">Mar</option>
+                                            <option value="Apr">Apr</option>
+                                            <option value="May">May</option>
+                                            <option value="Jun">Jun</option>
+                                            <option value="Jul">Jul</option>
+                                            <option value="Aug">Aug</option>
+                                            <option value="Sep">Sep</option>
+                                            <option value="Oct">Oct</option>
+                                            <option value="Nov">Nov</option>
+                                            <option value="Dec">Dec</option>
+                                        </select>
+                                        <select id="days-dropdown">
+                                            <option value="Day">Day</option>
+                                        </select>
+                                        <select id='year-dropdown'>
+                                            <option value="Year">Year</option>
+                                        </select>
+
+                                        <div>&nbsp;</div>
+
+                                        <div class="mb-3 form-check">
+                                            <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                                            <label for="signup"> Yes, keep me posted on updates <br/> related to Crunchyroll.</label>
+                                        </div>
+                                    </div>
+
+
+                                        </div>
                                 </div>
-
-                                <div>&nbsp;</div>
-                                
-                                <div class="col">
-                                <label type="birthday">Birthday</label><br/>
-                                <select id="months-dropdown">
-                                    <option value="Month">Month</option>
-                                    <option value="Jan">Jan</option>
-                                    <option value="Feb">Feb</option>
-                                    <option value="Mar">Mar</option>
-                                    <option value="Apr">Apr</option>
-                                    <option value="May">May</option>
-                                    <option value="Jun">Jun</option>
-                                    <option value="Jul">Jul</option>
-                                    <option value="Aug">Aug</option>
-                                    <option value="Sep">Sep</option>
-                                    <option value="Oct">Oct</option>
-                                    <option value="Nov">Nov</option>
-                                    <option value="Dec">Dec</option>
-                                </select>
-                                <select id="days-dropdown">
-                                    <option value="Day">Day</option>
-                                </select>
-                                <select id='year-dropdown'>
-                                    <option value="Year">Year</option>
-                                </select>
-
-                                <div>&nbsp;</div>
-
-                                <div class="mb-3 form-check">
-                                    <input class="form-check-input" type="checkbox" id="flexCheckDefault">
-                                    <label for="signup"> Yes, keep me posted on updates <br/> related to Crunchyroll.</label>
-                                </div>
-                            </div>
-
-
-                                </div>
-                        </div>
+                            </form>    
                     </form>
         </div>
+    
+
+                    
+        
         
         <div class="vl"></div>
 
@@ -133,13 +143,14 @@
 
                                 <div class="col">
                                     <label for="password" class="form-label">Password</label>
+                                    <label for="password" id="forgotpassword" class="form-label">Forgot Password?</label>
                                     <input type="text" class="form-control">    
                                 </div>
 
                                 <div>&nbsp;</div>
 
                                 <div class="col">
-                                    <button type="button" id="newButton" class="btn btn-primary btn-lg">Log In</button>
+                                    <button type="button" id="newButton2" class="btn btn-primary btn-lg">Log In</button>
                                 </div>
 
                                 <div>&nbsp;</div>
@@ -152,11 +163,10 @@
                     </form>
         </div>
         </div>
+
+    </div>               
         
-
-
-            </div>               
-        </div>
+</div>
 
     <footer class="bottomrectangle">
        © 2006-2021 Ellation, LLC.
