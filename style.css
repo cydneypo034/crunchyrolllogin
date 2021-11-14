@@ -60,6 +60,14 @@ select {
     background-color: #F78C25;
 }
 
+.vl {
+    border-left: 2px solid #C1C0C0;
+    height: 660px;
+    position: absolute;
+    left: 65%;
+    top: 0;
+
+}
 .bottomrectangle {
     position: fixed;
     left: 0;
