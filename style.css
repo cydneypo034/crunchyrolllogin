@@ -66,12 +66,19 @@ select {
     position: absolute;
     left: 65%;
     top: 0;
-
 }
 
 .login-form {
     float: right;
+    position: relative;
+    top: -200px;
 }
+
+.login-extra-text {
+    text-align: center;
+    font-size: 12px;
+}
+
 .bottomrectangle {
     position: fixed;
     left: 0;
