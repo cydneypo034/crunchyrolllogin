@@ -9,6 +9,8 @@
     <link rel="stylesheet" type="text/css" href="style.css" />
 
     <title>Crunchyroll Clone Login</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
 </head>
 <body>
     <header class="toprectangle">
@@ -24,37 +26,57 @@
                     <div class="formgroup1">     
                         <div class="form-row">
                             <div class="col">
-                                <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                                <label for="emailaddress" class="form-label">Email Address</label>
                                 <input type="text" class="form-control">
                             </div> 
 
+                            <div>&nbsp;</div>
+
                             <div class="col">
-                                <label for="exampleFormControlInput1" class="form-label">Password</label>
+                                <label for="password" class="form-label">Password</label>
                                 <input type="text" class="form-control">    
                             </div>
 
-                            <div class="col">
-                                    <div data-toggle="buttons">
-                                    <input type="radio" id="gender" name="female" value="Female">
+                            <div>&nbsp;</div>
+
+                            <div  class="col">
+                                    <div id="buttons" data-toggle="buttons">
+                                    <input type="radio" id="gender1" name="name" value="Female">
                                     <label class="btn btn-default active" for="female">Female</label>
-                                    <input type="radio" id="gender" name="male" value="Male">
+                                    <input type="radio" id="gender2" name="name" value="Male">
                                     <label class="btn btn-default" for="male">Male</label>
-                                    <input type="radio" id="gender" name="other" value="Other">
+                                    <input type="radio" id="gender3" name="name" value="Other">
                                     <label class="btn btn-default" for="other">Other</label>    
                             </div>
+
+                            <div>&nbsp;</div>
+
+                            <form action="?" method="POST">
+                                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                            </form>
+                             
+                            <div>&nbsp;</div>
+
+                            <div class="col">
+                                <button type="button" id="newButton" class="btn btn-primary btn-lg">Create Account</button>
+                            </div>
+
+
                         </div>
                         </div> 
                     </div>
                 </form>
-                
+
                 <form>
                     <div class="formgroup1">     
                         <div class="form-row">
                             
                             <div class="col">
-                                <label for="exampleFormControlInput1" class="form-label">User Name</label><br/>
+                                <label for="username" class="form-label">User Name</label><br/>
                                 <input type="text" class="form-control">
                             </div>
+
+                            <div>&nbsp;</div>
                             
                             <div class="col">
                             <label type="birthday">Birthday</label><br/>
@@ -79,9 +101,12 @@
                             <select id='year-dropdown'>
                                 <option value="Year">Year</option>
                             </select>
+
+                            <div>&nbsp;</div>
+
                             <div class="mb-3 form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                <label for="signup"> Yes, keep me posted on updates related to Crunchyroll.</label>
+                                <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                                <label for="signup"> Yes, keep me posted on updates <br/> related to Crunchyroll.</label>
                             </div>
                         </div>
 
@@ -91,7 +116,8 @@
                 </form>
 
 
-            </div>
+            </div>                
+
         </div>
 
     <footer class="bottomrectangle">

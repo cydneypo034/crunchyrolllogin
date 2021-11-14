@@ -33,11 +33,12 @@ body {
 
 .formgroup1 {
     float: left;
+    padding: 2px;
 }
 
 .form-control {
     height: 3em;
-    width: 18em;
+    width: 20em;
 }
 
 input[type=radio]{
@@ -50,7 +51,13 @@ input[type=text]:focus {
 
 select {
     height: 55px;
-    width: 93px;
+    width: 6.5em;
+}
+
+#newButton {
+    height: 3em;
+    width: 16em;
+    background-color: #F78C25;
 }
 
 .bottomrectangle {
