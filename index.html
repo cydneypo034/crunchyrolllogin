@@ -32,15 +32,20 @@
                                     <input type="text" class="form-control">    
                                 </div>
                                 <div>&nbsp;</div>
-                                <div  class="col">
-                                        <div id="buttons" data-toggle="buttons">
-                                        <input type="radio" id="gender1" name="name" value="Female">
-                                        <label class="btn btn-default active" for="female">Female</label>
-                                        <input type="radio" id="gender2" name="name" value="Male">
-                                        <label class="btn btn-default" for="male">Male</label>
-                                        <input type="radio" id="gender3" name="name" value="Other">
-                                        <label class="btn btn-default" for="other">Other</label>    
-                                </div>
+                                <div class="col">
+                                    <div class="form-check form-check-inline" data-toggle="buttons">
+                                        <input type="radio" id="gender1" class="form-check-input" name="name" value="Female">
+                                        <label class="form-check-label" for="female">Female</label>
+                                    </div>
+                                    <div class="form-check form-check-inline" data-toggle="buttons">
+                                       <input type="radio" id="gender2" class="form-check-input" name="name" value="Male">
+                                        <label class="form-check-label" for="male">Male</label> 
+                                    </div>
+                                    <div class="form-check form-check-inline" data-toggle="buttons">
+                                       <input type="radio" id="gender3" class="form-check-input" name="name" value="Other">
+                                        <label class="form-check-label" for="other">Other</label> 
+                                    </div>
+                                    
                                 <div>&nbsp;</div>
                                 <form action="?" method="POST">
                                     <div class="g-recaptcha" data-sitekey="your_site_key"></div>
@@ -113,6 +118,7 @@
                                 <div>&nbsp;</div>
                                 <div class="col">
                                     <label for="password" class="form-label">Password</label>
+                                    <label for="password" id="forgotpassword" class="form-label">Forgot Password?</label>
                                     <input type="text" class="form-control">    
                                 </div>
                                 <div>&nbsp;</div>

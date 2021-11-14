@@ -47,8 +47,17 @@ input[type=radio]{
 
 input[type=text]:hover{
     border: 1px solid #F78C25;
-
   }
+
+#months-dropdown:hover{
+    border: 1px solid #F78C25;
+}
+#days-dropdown:hover{
+    border: 1px solid #F78C25;
+}
+#year-dropdown:hover{
+    border: 1px solid #F78C25;
+}
 
 select {
     height: 55px;
