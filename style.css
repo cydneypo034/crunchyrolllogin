@@ -31,7 +31,10 @@ body {
     padding: 50px;
 }
 
-
+.formgroup1 {
+    float: left;
+    padding: 2px;
+}
 
 .form-control {
     height: 3em;
@@ -76,11 +79,15 @@ select {
     text-align: left;
 }
 
-
+.login-form {
+    float: right;
+    position: relative;
+    top: -200px;
+}
 
 #forgotpassword {
     float: right;
-    color: #EB7F25
+    color: #EB7F25;
 }
 
 .login-extra-text {
