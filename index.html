@@ -15,66 +15,61 @@
         <img class="crunchyrolllogo" src="images/Crunchyroll-Logo-Vector2.png" />
     </header>
     
-
     <div class="createaccountsquare">
+        <div class="container">
             <h1>Sign Up for a Free Account</h1>
             <p>Please join Crunchyroll! It's only one click away!</p>
 
-            <form>
+                <form>
+                    <div class="formgroup1">     
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleFormControlInput1" class="form-label">Email Address</label><br/>
+                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                            </div> 
+                            <div class="col">
+                                <label for="exampleFormControlInput1" class="form-label">User Name</label><br/>
+                                <input type="name" class="form-control" id="exampleFormControlInput1">    
+                            </div>
+                        </div> 
+                    </div>
+                        <div class="row">
+                            <div class="col">
+                                <label for="exampleFormControlInput1" class="form-label">Password</label><br/>
+                                <input type="password" class="form-control" id="exampleFormControlInput1">
+                            </div>
+                        </div>
 
-            <div class="mb-3">
-            <label type="email">Email Address</label>
-            <input type="text" name="email" placeholder="Email Address" >
+                            <label type="birthday">Birthday</label><br/>
+                            <select id="months-dropdown">
+                                <option value="Month">Month</option>
+                                <option value="Jan">Jan</option>
+                                <option value="Feb">Feb</option>
+                                <option value="Mar">Mar</option>
+                                <option value="Apr">Apr</option>
+                                <option value="May">May</option>
+                                <option value="Jun">Jun</option>
+                                <option value="Jul">Jul</option>
+                                <option value="Aug">Aug</option>
+                                <option value="Sep">Sep</option>
+                                <option value="Oct">Oct</option>
+                                <option value="Nov">Nov</option>
+                                <option value="Dec">Dec</option>
+                            </select>
+                            <select id="days-dropdown">
+                                <option value="Day">Day</option>
+                            </select>
+                            <select id='year-dropdown'>
+                                <option value="Year">Year</option>
+                            </select>
+                            <div class="mb-3 form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label for="signup"> Yes, keep me posted on updates related to Crunchyroll.</label>
+                            </div>   
+                </form>
+
+
             </div>
-            
-            <div class="mb-3">
-            <label type="username">User Name</label>
-            <input type="text" name="name" placeholder="User Name" >    
-            </div>
-            
-            <div class="mb-3">
-            <label type="password">Password</label>
-            <input type="text" name="password" placeholder="Password" >
-            </div>
-
-            <select id="months-dropdown">
-                <option value="Month">Month</option>
-                <option value="Jan">Jan</option>
-                <option value="Feb">Feb</option>
-                <option value="Mar">Mar</option>
-                <option value="Apr">Apr</option>
-                <option value="May">May</option>
-                <option value="Jun">Jun</option>
-                <option value="Jul">Jul</option>
-                <option value="Aug">Aug</option>
-                <option value="Sep">Sep</option>
-                <option value="Oct">Oct</option>
-                <option value="Nov">Nov</option>
-                <option value="Dec">Dec</option>
-            </select>
-
-            <select id="days-dropdown">
-                <option value="Day">Day</option>
-            </select>
-
-            <select id='year-dropdown'>
-                <option value="Year">Year</option>
-            </select>
-
-            <input type="radio" id="female" name="gender1" value="Female">
-            <label for="female">Female</label>
-            <input type="radio" id="male" name="gender2" value="Male">
-            <label for="male">Male</label>
-            <input type="radio" id="other" name="gender3" value="Other">
-            <label for="other">Other</label>
-
-            <div class="mb-3 form-check">
-            <input type="checkbox" id="signup" name="signup" value="SignUp">
-            <label for="signup"> Yes, keep me posted on updates related to Crunchyroll.</label>
-            </div>
-
-        </form>
-
         </div>
 
     <footer class="bottomrectangle">

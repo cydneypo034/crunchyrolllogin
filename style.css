@@ -27,6 +27,14 @@ body {
     border: solid #C1C0C0 1px;
     background-color: #ffffff;
 }
+.container {
+    padding: 50px;
+}
+
+.formgroup1 {
+    float: left;
+}
+
 
 input[type=text]:focus {
     border: 3px solid #555;
