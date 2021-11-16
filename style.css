@@ -31,11 +31,6 @@ body {
     padding: 50px;
 }
 
-.formgroup1 {
-    float: left;
-    padding: 2px;
-}
-
 .custom-control-input:hover{
     border: 1px solid #F78C25;
 }
