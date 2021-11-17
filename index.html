@@ -29,13 +29,13 @@
                 <div class="columns">
                 <div class="column">
                     <div class="field">
-                        <label for="username" class="form-label">Email Address</label>
+                        <label for="email" class="form-label">Email Address</label>
                         <div class="control">
                             <input class="input" type="text">
                         </div>
                     </div>
-                    <div class="field">
-                        <label for="username" class="form-label">Password</label>
+                    <div class="field" id="secondsection">
+                        <label for="username" class="form-label">User Name</label>
                         <div class="control">
                             <input class="input" type="text">
                         </div>
@@ -70,8 +70,7 @@
                             <input class="input" type="text">
                         </div>
                     </div>
-                        <label class="form-label">Birthday</label><br />
-
+                       <label class="form-label">Birthday</label><br />
                         <select id="months-dropdown">
                             <option value="Month">Month</option>
                             <option value="Jan">Jan</option>
@@ -89,11 +88,41 @@
                         </select>
                         <select id="days-dropdown">
                             <option value="Day">Day</option>
-
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
                         </select>
                         <select id='year-dropdown'>
                             <option value="Year">Year</option>
-                        </select>
+                        </select> 
                         <div>&nbsp;</div>
                         <div class="mb-3 form-check">
                             <input class="form-check-input" type="checkbox" id="flexCheckDefault">
@@ -108,9 +137,14 @@
     <div>&nbsp;</div> 
 
     </div>
-    <footer class="bottomrectangle">
-        © 2006-2021 Ellation, LLC.
-    </footer>
+    <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>© 2006-2021 Ellation, LLC.</strong> 
+          </p>
+        </div>
+      </footer>
+
     <script>
 
         let yearDropdown = document.getElementById('year-dropdown');

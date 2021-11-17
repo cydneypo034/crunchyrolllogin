@@ -18,12 +18,20 @@ body {
     margin-left: 140px;
 }
 
-
 .notification {
     background-color: #ffffff;
     margin-top: 60px;
+    height: 650px;
+
 }
 
+.firstsection {
+    float: left;
+}
+
+.secondsection {
+    float:inline-start
+}
 
 .custom-control-input:hover{
     border: 1px solid #F78C25;
@@ -76,6 +84,11 @@ select {
     width: 6.5em;
 }
 
+select {
+    height: 55px;
+    width: 107px;
+}
+
 #newButton {
     color: #ffffff;
     height: 3em;
@@ -92,7 +105,6 @@ select {
     background-color: #EB7F25;
     box-shadow: 1px 1px 1px rgb(116, 114, 114);
 }
-
 
 .createacc-extra-text {
     font-size: 12px;
@@ -115,14 +127,4 @@ select {
     font-size: 12px;
 }
 
-.bottomrectangle {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    padding: 20px 10px;
-    width: 100em;
-    background-color: #ffffff;
-    color: black;
-    text-align: center;
-}
 
