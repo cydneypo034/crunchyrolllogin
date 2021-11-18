@@ -13,6 +13,12 @@ body {
     box-shadow: 5px 5px 5px #D5D5D5;
 }
 
+.container {
+    position: relative;
+    left: 90px;
+    top: 10px; 
+}
+
 .crunchyrolllogo {
     width: 150px;
     margin-left: 140px;
@@ -22,7 +28,8 @@ body {
     background-color: #ffffff;
     margin-top: 60px;
     height: 650px;
-
+    width: 1200px;
+    border: 1px solid #C1C0C0;
 }
 
 .firstsection {
