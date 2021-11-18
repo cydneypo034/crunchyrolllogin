@@ -9,129 +9,14 @@ body {
     left: 0;
     top: 0;
     width: 100em;
+    height: 4.2em;
     background-color: #ffffff;
-    box-shadow: 5px 5px 5px #D5D5D5;
+    box-shadow: 3px 3px 3px #D5D5D5;
 }
 
-.container {
-    position: relative;
-    left: 90px;
-    top: 10px; 
-}
 
 .crunchyrolllogo {
     width: 150px;
     margin-left: 140px;
+    margin-top: 1.5px;
 }
-
-.notification {
-    background-color: #ffffff;
-    margin-top: 60px;
-    height: 650px;
-    width: 1200px;
-    border: 1px solid #C1C0C0;
-}
-
-.firstsection {
-    float: left;
-}
-
-.secondsection {
-    float:inline-start
-}
-
-.custom-control-input:hover{
-    border: 1px solid #F78C25;
-}
-
-h1 {
-    font-family:Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-    color: #555555;
-}
-
-p {
-    color: #A1A1A1;
-}
-
-.custom-control-input:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-input[type="text"]{
-    height: 3em;
-    width: 20em;
-    margin: 5px;
-    border: 1px solid #A5A2A2;
-}
-
-input[type='text']:hover{
-    border: 1px solid #F78C25;
-  }
-
-input[type='text']:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-#months-dropdown:hover{
-    border: 1px solid #F78C25;
-}
-#days-dropdown:hover{
-    border: 1px solid #F78C25;
-}
-#year-dropdown:hover{
-    border: 1px solid #F78C25;
-}
-
-select {
-    height: 55px;
-    width: 6.5em;
-}
-
-select {
-    height: 55px;
-    width: 107px;
-}
-
-#newButton {
-    color: #ffffff;
-    height: 3em;
-    width: 16em;
-    background-color: #F78C25;
-    box-shadow: 0px 1px 0px rgb(116, 114, 114);
-
-}
-
-#newButton2 {
-    color: #ffffff;
-    height: 3em;
-    width: 16em;
-    background-color: #EB7F25;
-    box-shadow: 1px 1px 1px rgb(116, 114, 114);
-}
-
-.createacc-extra-text {
-    font-size: 12px;
-    text-align: left;
-}
-
-.login-form {
-    float: right;
-    position: relative;
-    top: -200px;
-}
-
-#forgotpassword {
-    float: right;
-    color: #EB7F25;
-}
-
-.login-extra-text {
-    text-align: center;
-    font-size: 12px;
-}
-
-
