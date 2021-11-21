@@ -51,9 +51,17 @@ input[class="input"]{
     height: 55px;
 }
 
+input[class="input"]:hover{
+    border-color: #F78C25;
+}
+
 input[type="checkbox"]{
     width: 20px;
-    height: 35px;
+    height: 25px;
+}
+
+input[type="checkbox"]:hover{
+    border-color: #F78C25;
 }
 
 .vertical-line {
@@ -87,6 +95,10 @@ select {
     height: 55px;
 }
 
+select:hover{
+    border-color: #F78C25;
+}
+
 label [type="radio"]{
     transform: scale(1.7);
     margin: 10px;
@@ -98,6 +110,11 @@ label [type="radio"]{
     background-color: #F78C25;
     color: white;
     border-radius: 8px;
+}
+
+.button:hover {
+    background-color: #F28725;
+    color: white
 }
 
 .footer {
