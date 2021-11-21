@@ -38,10 +38,21 @@ body {
     top: 4%;
     left: 10%;
     width: 1200px;
-
+    height: 600px;
     background-color: #ffffff;
 }
 
 input[class="input"]{
-    width: 350px;
+    width: 320px;
+}
+
+.formgroup1 {
+    float: left;
+    padding: 2px;
+}
+.formgroup2{
+    float: right;
+    padding: 2px;
+    position: relative;
+    left: -500px;
 }
