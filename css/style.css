@@ -62,6 +62,13 @@ input[class="input"]{
     left: -440px;
 }
 
+.formgroup3{
+    float: right;
+    padding: 2px;
+    position: relative;
+    top: -350px;
+}
+
 select {
     width: 104px;
     height: 55px;
@@ -92,5 +99,10 @@ label [type="radio"]{
 }
 
 .footer-text {
-    font-size: 10px;
+    font-size: 12.5px;
+}
+
+.second-footer-text {
+    font-size: 12.5px;
+    text-align: center;
 }
