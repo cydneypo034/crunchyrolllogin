@@ -51,6 +51,14 @@ input[class="input"]{
     height: 55px;
 }
 
+.vertical-line {
+    border-left: 1px solid #C1C0C0;
+    height: 550px;
+    position: absolute;
+    left: 64%;
+    top: 25%;
+}
+
 .formgroup1 {
     float: left;
     padding: 2px;
