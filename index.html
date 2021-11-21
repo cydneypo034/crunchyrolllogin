@@ -20,71 +20,99 @@
 
     <div class="wrapper">
         <div class="main">
-        <div class="formbackground">
-            <div class="container" style="padding: 20px;">
-                <h1 style="font-weight: bold; font-size: 30px;">Sign Up for a Free Account</h1>
-                <p style="font-size: 16px;">Please join Crunchyroll! It’s only one click away! </p>
-                
-                <div>&nbsp;</div>
+            <div class="formbackground">
+                <div class="container" style="padding: 20px;">
+                    <h1 style="font-weight: bold; font-size: 30px;">Sign Up for a Free Account</h1>
+                    <p style="font-size: 16px;">Please join Crunchyroll! It’s only one click away! </p>
 
-                <div class="field">
-                    <label>Email Address</label>
-                    <div class="control">
-                      <input class="input" type="text">
+                    <div>&nbsp;</div>
+
+                    <div class="field">
+                        <label>Email Address</label>
+                        <div class="control">
+                            <input class="input" type="text">
+                        </div>
                     </div>
-                  </div>
-                  <div class="field">
-                    <label>Password</label>
-                    <div class="control">
-                      <input class="input" type="text">
+                    <div class="field">
+                        <label>Password</label>
+                        <div class="control">
+                            <input class="input" type="text">
+                        </div>
                     </div>
-                  </div>
 
-                  <div class="control">
-                    <label class="radio">
-                      <input type="radio" name="answer">
-                      Female
-                    </label>
-                    <label class="radio">
-                      <input type="radio" name="answer">
-                      Male
-                    </label>
-                    <label class="radio">
-                        <input type="radio" name="answer">
-                        Other
-                      </label>
-                  </div>
+                    <div class="control">
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Female
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Male
+                        </label>
+                        <label class="radio">
+                            <input type="radio" name="answer">
+                            Other
+                        </label>
+                    </div>
 
-                  <form action="?" method="POST">
-                    <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                    <form action="?" method="POST">
+                        <div class="g-recaptcha" data-sitekey="your_site_key"></div>
                     </form>
 
                     <button class="button">Create Account</button>
-                
-                  <div class="field">
-                    <label>User Name</label>
-                    <div class="control">
-                      <input class="input" type="text">
+
+                    <div class="field">
+                        <label>User Name</label>
+                        <div class="control">
+                            <input class="input" type="text">
+                        </div>
                     </div>
-                  </div>
-                  <div class="dropdown">
+                    <div class="field">
+                        <label type="birthday">Birthday</label>
+                        <select id="months-dropdown">
+                            <option value="Month">Month</option>
+                            <option value="Jan">Jan</option>
+                            <option value="Feb">Feb</option>
+                            <option value="Mar">Mar</option>
+                            <option value="Apr">Apr</option>
+                            <option value="May">May</option>
+                            <option value="Jun">Jun</option>
+                            <option value="Jul">Jul</option>
+                            <option value="Aug">Aug</option>
+                            <option value="Sep">Sep</option>
+                            <option value="Oct">Oct</option>
+                            <option value="Nov">Nov</option>
+                            <option value="Dec">Dec</option>
+                        </select>
+                        <select id="days-dropdown">
+                            <option value="Day">Day</option>
+                        </select>
+                        <select id='year-dropdown'>
+                            <option value="Year">Year</option>
+                        </select>
 
-                  </div>
+                        <div>&nbsp;</div>
 
-                  
-                  
+                        <div class="mb-3 form-check">
+                            <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                            <label for="signup"> Yes, keep me posted on updates <br /> related to Crunchyroll.</label>
+                        </div>
+                    </div>
+
+
+
+                </div>
             </div>
         </div>
     </div>
-    </div>
-    
+
 
     <footer class="footer" style="background-color: #ffffff;">
         <div class="content has-text-centered">
-          <p class="footertext" style="margin: 0 auto; padding: 30px;"> © 2006-2021 Ellation, LLC. </p>
-    </div>
+            <p class="footertext" style="margin: 0 auto; padding: 30px;"> © 2006-2021 Ellation, LLC. </p>
+        </div>
     </footer>
-   
+
     <script>
 
         let yearDropdown = document.getElementById('year-dropdown');
