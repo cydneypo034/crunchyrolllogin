@@ -38,6 +38,10 @@ body {
     top: 4%;
     left: 10%;
     width: 1200px;
-    height: 400px;
+
     background-color: #ffffff;
+}
+
+input[class="input"]{
+    width: 350px;
 }
