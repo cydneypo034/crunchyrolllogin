@@ -1,3 +1,5 @@
+@import "../node_modules/bulma/css/bulma.css";
+
 * {
     box-sizing: border-box;
 }
@@ -28,17 +30,19 @@ body {
 }
 
 .main {
-    width: 100%;
-    height: 500px;
+    width: 100em;
+    height: 100em;
     background-color: #F2F2F2;
+    
 }
 
 .formbackground {
     position: relative;
-    top: 4%;
+    top: 20px;
     left: 10%;
     width: 1200px;
-    height: 600px;
+    height: 650px;
+    border: 1px solid #c1c0c0;
     background-color: #ffffff;
 }
 
@@ -62,8 +66,18 @@ select {
     height: 40px;
 }
 
-
 label [type="radio"]{
     transform: scale(1.7);
     margin: 10px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px 10px;
+    width: 100em;
+    background-color: #ffffff;
+    color: black;
+    text-align: center;
 }
