@@ -136,3 +136,37 @@ label [type="radio"]{
     font-size: 12.5px;
     text-align: center;
 }
+
+@media only screen and (max-width: 660px){
+    body {
+        margin: 0 auto;
+        background-color: #F2F2F2;
+    
+    }
+    
+    .toprectangle {
+        width: 100em;
+        height: 4.2em;
+        background-color: #ffffff;
+        box-shadow: 3px 3px 3px #D5D5D5;
+    }
+    
+    .crunchyrolllogo {
+        width: 130px;
+        margin-left: 10px;
+        margin-top: 1.5px;
+    }
+    .formbackground {
+        position: relative;
+        top: -25px;
+        left: 0%;
+        width: 550px;
+        height: 700px;
+        background-color: #ffffff;
+    }
+
+    input[class="input"]{
+        width: 450px;
+        height: 55px;
+    }
+}
