@@ -141,7 +141,6 @@ label [type="radio"]{
     body {
         margin: 0 auto;
         background-color: #F2F2F2;
-    
     }
     
     .toprectangle {
@@ -156,12 +155,38 @@ label [type="radio"]{
         margin-left: 10px;
         margin-top: 1.5px;
     }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+    #group1,#group2,#signupgroup-header, #signupgroup-para {
+        order: 3;
+        position: relative;
+        top: 90px;   
+    }
+
+
+    #email-group{
+        order: 2;
+        
+    }
+    #username-group{
+        order: 1;
+     }
+
+    #group3 {
+        order: 0;
+        position: relative;
+        top: -30px;
+    }
+
     .formbackground {
         position: relative;
         top: -25px;
         left: 0%;
         width: 550px;
-        height: 700px;
+        height: 1500px;
         background-color: #ffffff;
     }
 
@@ -169,4 +194,18 @@ label [type="radio"]{
         width: 450px;
         height: 55px;
     }
+
+    .button {
+        height: 4em;
+        width: 28em;
+        background-color: #F78C25;
+        color: white;
+        border-radius: 8px;
+    }
+    
+    .button:hover {
+        background-color: #F28725;
+        color: white
+    }
+    
 }
