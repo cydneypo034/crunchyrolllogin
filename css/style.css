@@ -163,16 +163,28 @@ label [type="radio"]{
     #group1,#group2,#signupgroup-header, #signupgroup-para {
         order: 3;
         position: relative;
-        top: 90px;   
+        top: 60px;   
     }
 
+    #password-group {
+        position: relative;
+        top: 100px;
+    }
+
+    .control-group {
+        position: relative;
+        top: 200px;
+    }
 
     #email-group{
         order: 2;
-        
+
     }
     #username-group{
         order: 1;
+        position: relative;
+        top: -380px;
+        left: 440px;
      }
 
     #group3 {
