@@ -173,7 +173,7 @@ label [type="radio"]{
 
     .control-group {
         position: relative;
-        top: 200px;
+        top: 270px;
     }
 
     #email-group{
@@ -191,6 +191,17 @@ label [type="radio"]{
         order: 0;
         position: relative;
         top: -30px;
+    }
+
+    #dropdown-group {
+        position: relative;
+        top: -280px;
+        left: 440px;
+    }
+
+    #radio-group {
+        position: relative;
+        top: -70px;
     }
 
     .formbackground {
