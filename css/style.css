@@ -31,9 +31,8 @@ body {
 
 .main {
     width: 100em;
-    height: 100em;
+    height: 48em;
     background-color: #F2F2F2;
-    
 }
 
 .formbackground {
@@ -104,6 +103,10 @@ label [type="radio"]{
     margin: 10px;
 }
 
+#create-account-text{
+    display: none;
+}
+
 .button {
     height: 4em;
     width: 20em;
@@ -142,10 +145,16 @@ label [type="radio"]{
         margin: 0 auto;
         background-color: #F2F2F2;
     }
-    
+
+    .main {
+        width: 100em;
+        height: 90em;
+        background-color: #F2F2F2;
+    }
+ 
     .toprectangle {
         width: 100em;
-        height: 4.2em;
+        height: 3.5em;
         background-color: #ffffff;
         box-shadow: 3px 3px 3px #D5D5D5;
     }
@@ -204,12 +213,26 @@ label [type="radio"]{
         top: -70px;
     }
 
+    #checkbox-group {
+        position: relative;
+        top: 50px;
+    }
+
+    #create-account-text{
+        display: inline;
+    }
+
+    select {
+        width: 144px;
+        height: 55px;
+    }
+
     .formbackground {
         position: relative;
         top: -25px;
         left: 0%;
         width: 550px;
-        height: 1500px;
+        height: 1400px;
         background-color: #ffffff;
     }
 
@@ -229,6 +252,20 @@ label [type="radio"]{
     .button:hover {
         background-color: #F28725;
         color: white
+    }
+
+    .vertical-line {
+        display: none;
+    }
+
+    .content {
+        text-align: left;
+        position: relative;
+        left: 150px;
+    }
+    
+    .footer-text {
+        font-size: 12.5px;
     }
     
 }
