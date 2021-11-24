@@ -118,6 +118,17 @@ label [type="radio"]{
     margin: 10px;
 }
 
+.radio {
+    font-size: 18px;
+}
+
+#months-dropdown, #days-dropdown, #year-dropdown {
+    font-size: 18px;
+    text-align: center;
+}
+
+
+
 #create-account-text{
     display: none;
 }
