@@ -10,7 +10,7 @@ For this project, I decided to clone the sign up and log in page in a static for
 - https://trello.com/b/YDwMGmuV/crunchy-roll
 
 ### Figma Wireframe:
-- 	![crunchyroll login wireframe from figma.com](C:\Users\cydne\desktop\webdevelopment\crunchyrolllogin\assests\CRUNCHYROLL-SIGNIN.png)
+- 	![crunchyroll login wireframe from figma.com](https://raw.githubusercontent.com/cydneypo034/crunchyrolllogin/master/assests/CRUNCHYROLL-SIGNIN.png)
 
 ## Tools Used:
 - HTML
