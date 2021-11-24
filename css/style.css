@@ -158,6 +158,13 @@ label [type="radio"]{
     text-align: center;
 }
 
+.content {
+    text-align: left;
+    position: relative;
+    left: 690px;
+    font-size: 10px;
+}
+
 .footer-text {
     font-size: 12.5px;
 }
@@ -288,7 +295,8 @@ label [type="radio"]{
     .content {
         text-align: left;
         position: relative;
-        left: 150px;
+        left: 190px;
+        font-size: 10px;
     }
     
     .footer-text {
