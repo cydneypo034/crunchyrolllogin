@@ -48,6 +48,7 @@ body {
 input[class="input"]{
     width: 320px;
     height: 55px;
+    border: 1px solid #A5A2A2;
 }
 
 input[class="input"]:hover{
@@ -55,8 +56,22 @@ input[class="input"]:hover{
 }
 
 input[type="checkbox"]{
-    width: 20px;
+    width: 30px;
     height: 25px;
+    vertical-align: middle;
+    position: relative;
+    bottom: 1px;
+}
+
+.checkbox-span{
+    position: relative;
+    left: 4em;
+}
+
+.checkbox-text {
+    display: inline-block;
+    max-width: 80%;
+    vertical-align: top;
 }
 
 input[type="checkbox"]:hover{
@@ -119,6 +134,7 @@ label [type="radio"]{
     background-color: #F28725;
     color: white
 }
+
 
 .footer {
     position: fixed;
