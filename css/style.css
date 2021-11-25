@@ -83,6 +83,23 @@ input[type="checkbox"]:hover{
     border-color: #F78C25;
 }
 
+.radio {
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
 .vertical-line {
     border-left: 1px solid #C1C0C0;
     height: 550px;
