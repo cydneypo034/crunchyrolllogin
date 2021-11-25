@@ -39,7 +39,7 @@
                                 <input class="input" type="text">
                             </div>
                         </div>
-
+                        <div>&nbsp;</div>
                         <div class="control-group">
                            <div class="control" id="radio-group">
                             <label class="radio">
@@ -88,18 +88,6 @@
                             <label type="birthday">Birthday</label><br />
                             <select id="months-dropdown">
                                 <option value="Month">Month</option>
-                                <option value="Jan">Jan</option>
-                                <option value="Feb">Feb</option>
-                                <option value="Mar">Mar</option>
-                                <option value="Apr">Apr</option>
-                                <option value="May">May</option>
-                                <option value="Jun">Jun</option>
-                                <option value="Jul">Jul</option>
-                                <option value="Aug">Aug</option>
-                                <option value="Sep">Sep</option>
-                                <option value="Oct">Oct</option>
-                                <option value="Nov">Nov</option>
-                                <option value="Dec">Dec</option>
                             </select>
                             <select id="days-dropdown">
                                 <option value="Day">Day</option>
@@ -204,6 +192,17 @@
             yearDate.value = currentYear;
             yearDropdown.add(yearDate);
             currentYear -= 1;
+        }
+
+        let selectMonth = document.getElementById('months-dropdown');
+        const monthNames = ["January", "Febraury", "March", "April", "May",
+    "June", "July", "August", "September", "October", "November", "December"];
+        for (let m = 0; m < 12; m++) {
+            let month = monthNames[m];
+            let monthElem = document.createElement("option");
+            monthElem.value = m;
+            monthElem.text = month;
+            selectMonth.append(monthElem);
         }
     </script>
 </body>
