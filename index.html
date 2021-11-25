@@ -12,7 +12,8 @@
 
 <body>
     <header class="toprectangle">
-       <a href="https://www.crunchyroll.com/"><img class="crunchyrolllogo" src="images/Crunchyroll-Logo-Vector2.png" /></a>
+        <a href="https://www.crunchyroll.com/"><img class="crunchyrolllogo"
+                src="images/Crunchyroll-Logo-Vector2.png" /></a>
     </header>
 
     <div>&nbsp;</div>
@@ -21,8 +22,10 @@
         <div class="main">
             <div class="formbackground">
                 <div class="container" style="padding: 50px;">
-                    <h1 id="signupgroup-header" style="font-weight: bold; font-size: 30px;">Sign Up for a Free Account</h1>
-                    <p id="signupgroup-para" style="color: #A1A1A1; font-size: 16px;">Please join Crunchyroll! It’s only one click away! </p>
+                    <h1 id="signupgroup-header" style="font-weight: bold; font-size: 30px;">Sign Up for a Free Account
+                    </h1>
+                    <p id="signupgroup-para" style="color: #A1A1A1; font-size: 16px;">Please join Crunchyroll! It’s only
+                        one click away! </p>
 
                     <div>&nbsp;</div>
 
@@ -41,38 +44,39 @@
                         </div>
                         <div>&nbsp;</div>
                         <div class="control-group">
-                           <div class="control" id="radio-group">
-                            <label class="radio">
-                                <input type="radio" name="answer">
-                                <span class="clickedradiobuttons"></span>
-                                Female
-                            </label>
-                            <label class="radio">
-                                <input type="radio" name="answer">
-                                <span class="clickedradiobuttons"></span>
-                                Male
-                            </label>
-                            <label class="radio">
-                                <input type="radio" name="answer">
-                                <span class="clickedradiobuttons"></span>
-                                Other
-                            </label>
+                            <div class="control" id="radio-group">
+                                <label class="radio">
+                                    <input type="radio" name="answer">
+                                    <span class="clickedradiobuttons"></span>
+                                    Female
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="answer">
+                                    <span class="clickedradiobuttons"></span>
+                                    Male
+                                </label>
+                                <label class="radio">
+                                    <input type="radio" name="answer">
+                                    <span class="clickedradiobuttons"></span>
+                                    Other
+                                </label>
+                            </div>
+                            <div>&nbsp;</div>
+                            <form action="?" method="POST">
+                                <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+                            </form>
+                            <div>&nbsp;</div>
+                            <button class="button">Create Account</button>
+                            <div>&nbsp;</div>
+                            <div class="footer-text">
+                                By creating an account you're agreeing to <span
+                                    style="color: #F78C25; font-size: 12.5px;">our Terms</span> & <span
+                                    style="color: #F78C25; font-size: 12.5px;">Privacy Policy</span>, and you confirm
+                                that
+                                you are at least 16 years old.
+                            </div>
                         </div>
-                        <div>&nbsp;</div>
-                        <form action="?" method="POST">
-                            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
-                        </form>
-                        <div>&nbsp;</div>
-                        <button class="button">Create Account</button>
-                        <div>&nbsp;</div>
-                        <div class="footer-text">
-                            By creating an account you're agreeing to <span
-                                style="color: #F78C25; font-size: 12.5px;">our Terms</span> & <span
-                                style="color: #F78C25; font-size: 12.5px;">Privacy Policy</span>, and you confirm that
-                            you are at least 16 years old.
-                        </div> 
-                        </div>
-                        
+
 
                     </div>
 
@@ -99,9 +103,11 @@
                             <div>&nbsp;</div>
 
                             <div class="mb-3 form-check" id="checkbox-group">
-                                      <input class="form-check-input" type="checkbox" id="flexCheckDefault"><span class="checkbox-span"></span>
-                                        <label class="checkbox-text" for="signup"> Yes, keep me posted on updates <br/> related to
-                                        Crunchyroll.</label>  
+                                <label class="checkbox" for="signup">Yes, keep me posted on updates <br /> related to
+                                Crunchyroll.
+                                    <input class="form-check-input" type="checkbox">
+                                    <span class="checkbox-container"></span>
+                                 </label>   
                             </div>
                         </div>
                     </div>
@@ -110,8 +116,9 @@
 
                     <div class="formgroup3" id="group3">
                         <h1 style="font-weight: bold; font-size: 30px;">Log In</h1>
-                        <p style="color: #A1A1A1; font-size: 16px;">Already have an account? Log 
-                            in below. <span id="create-account-text" style="color: #F78C25;">Or create a new account.</span></p>
+                        <p style="color: #A1A1A1; font-size: 16px;">Already have an account? Log
+                            in below. <span id="create-account-text" style="color: #F78C25;">Or create a new
+                                account.</span></p>
 
                         <div>&nbsp;</div>
                         <div class="field">
@@ -164,7 +171,7 @@
 
         let selectMonth = document.getElementById('months-dropdown');
         const monthNames = ["January", "Febraury", "March", "April", "May",
-        "June", "July", "August", "September", "October", "November", "December"];
+            "June", "July", "August", "September", "October", "November", "December"];
         for (let m = 0; m < 12; m++) {
             let month = monthNames[m];
             let monthElem = document.createElement("option");
@@ -174,10 +181,10 @@
         }
 
         let dayDropdown = document.getElementById('days-dropdown');
-        const days = ["1","2","3","4","5","6","7","8","9","10","11","12",
-        "13","14","15","16","17","18","19","20","21","22","23","24","25","26",
-        "27","28","29","30","31"]
-        for (let d = 0; d < 31; d++){
+        const days = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12",
+            "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26",
+            "27", "28", "29", "30", "31"]
+        for (let d = 0; d < 31; d++) {
             let day = days[d];
             let daysElem = document.createElement("option");
             daysElem.value = d;
