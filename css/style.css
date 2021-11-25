@@ -98,6 +98,30 @@ input[type="checkbox"]:hover{
     cursor: pointer;
 }
 
+.clickedradiobuttons{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.radio:hover input ~ .clickedradiobuttons {
+    background-color: #ccc;
+}
+
+.radio input:checked ~ .clickedradiobuttons {
+    background-color: #F28725;
+}
+
+.clickedradiobuttons:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
 
 
 .vertical-line {
