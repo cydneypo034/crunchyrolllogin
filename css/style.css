@@ -305,21 +305,23 @@ label [type="radio"]{
     #group1,#group2,#signupgroup-header, #signupgroup-para {
         order: 3;
         position: relative;
-        top: 60px;   
+        top: 70px;   
     }
 
     #password-group {
         position: relative;
-        top: 100px;
+        top: 120px;
     }
 
     .control-group {
         position: relative;
-        top: 270px;
+        top: 260px;
     }
 
     #email-group{
         order: 2;
+        position: relative;
+        top: 25px;
 
     }
     #username-group{
@@ -343,7 +345,7 @@ label [type="radio"]{
 
     #radio-group {
         position: relative;
-        top: -70px;
+        top: -60px;
     }
 
     #checkbox-group {
@@ -365,7 +367,7 @@ label [type="radio"]{
         top: -25px;
         left: 0%;
         width: 550px;
-        height: 1400px;
+        height: 1450px;
         background-color: #ffffff;
     }
 
@@ -404,6 +406,7 @@ label [type="radio"]{
     }
     
     .footer-text {
+        text-align: center;
         font-size: 12.5px;
     }
     
