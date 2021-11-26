@@ -1,0 +1,25 @@
+{
+  "homepage":"http://cydneypo034.github.io/crunchyrolllogin",
+  "name": "crunchyrolllogin",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a project involving cloning the sign up and log in page for the infamous Crunchyroll website. Crunchyroll is an anime streaming service, connecting anime and manga fans from around the world.",
+  "main": "index.js",
+  "dependencies": {
+    "bulma": "^0.9.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cydneypo034/crunchyrolllogin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cydneypo034/crunchyrolllogin/issues"
+  }
+}
