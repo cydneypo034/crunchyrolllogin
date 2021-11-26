@@ -88,7 +88,6 @@ input[class="input"]:hover{
     width: 25px;
     background-color: #fff;
     border: 1px solid #A5A2A2;
-    border-radius: 50%;
 }
 
 .checkbox:hover input ~ .checkbox-container {
@@ -98,6 +97,7 @@ input[class="input"]:hover{
 
 .checkbox input:checked ~ .checkbox-container{
     background-color: #fff;
+    border: 1px solid #f28725;
 }
 
 .checkbox-container:after {
@@ -111,12 +111,11 @@ input[class="input"]:hover{
 }
 
 .checkbox .checkbox-container:after {
-    top: 4px;
-    left: 4px;
-    width: 15px;
-    height: 15px;
-    background: #F78C25;
-    border-radius: 50%;
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid #f28725;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
