@@ -28,6 +28,11 @@ body {
     align-items: center;
 }
 
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
 .main {
     width: 100em;
     height: 48em;
@@ -272,7 +277,8 @@ label [type="radio"]{
     text-align: center;
 }
 
-@media only screen and (max-width: 660px){
+@media only screen and (min-width: 375px) 
+and (max-width: 812px){
     body {
         margin: 0 auto;
         background-color: #F2F2F2;
@@ -300,6 +306,8 @@ label [type="radio"]{
     .container {
         display: flex;
         flex-direction: column;
+        max-width: 812px;
+        margin: 0 auto;
     }
     #group1,#group2,#signupgroup-header, #signupgroup-para {
         order: 3;
