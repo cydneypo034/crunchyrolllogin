@@ -309,6 +309,7 @@ and (max-width: 812px){
     .container {
         display: flex;
         flex-direction: column;
+        width: 500px;
     }
     #group1,#group2,#signupgroup-header, #signupgroup-para {
         order: 3;
@@ -366,7 +367,7 @@ and (max-width: 812px){
     }
 
     select {
-        width: 144px;
+        width: 128px;
         height: 55px;
     }
 
@@ -391,7 +392,7 @@ and (max-width: 812px){
 
     .button {
         height: 4em;
-        width: 28em;
+        width: 25em;
         background-color: #F78C25;
         color: white;
         border-radius: 8px;
