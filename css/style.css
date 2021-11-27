@@ -280,8 +280,11 @@ label [type="radio"]{
 @media only screen and (min-width: 375px) 
 and (max-width: 812px){
     body {
-        margin: 0 auto;
         background-color: #F2F2F2;
+        height:100%;
+        width: 100%;
+        padding:0;
+        margin:0;
     }
 
     .main {
@@ -306,8 +309,6 @@ and (max-width: 812px){
     .container {
         display: flex;
         flex-direction: column;
-        max-width: 812px;
-        margin: 0 auto;
     }
     #group1,#group2,#signupgroup-header, #signupgroup-para {
         order: 3;
